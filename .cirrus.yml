@@ -8,7 +8,7 @@ task:
     name: Buildbouuut
     timeout_in: 122m
     container:
-      image: mrkhan007/aosp:latest
+      image: registry.gitlab.com/sushrut1101/docker:latest
       cpu: 8
       memory: 30G   
     download_ccache_script:
